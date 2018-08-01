@@ -1,0 +1,64 @@
+
+$yellow: #ffc600;
+$black: #272727;
+$red: #F93D66;
+body {
+  
+  background: linear-gradient(to right, $yellow, $red);
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  background: $black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  flex-wrap: wrap;  
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  @media (max-width: 800px) {
+    ul {
+      flex-direction: column;
+      flex-basis: 100%;
+    }
+
+    button {
+      display: block;
+    }
+  }
+
+
+
+  li {
+
+    a {
+      display: flex;
+      color: whitesmoke;
+      text-decoration: none;
+      padding: 1rem;
+    }
+  }
+}
+
+.main-menu {
+  display: flex;
+}
+
+
+.main-menu.collapse {
+  display: none;
+}
+
+
