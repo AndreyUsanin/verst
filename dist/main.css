@@ -279,6 +279,340 @@ img {
   display: -ms-flexbox;
   display: flex; }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url(fonts/icomoon.eot);
+  src: url(fonts/icomoon.eot#iefix) format("embedded-opentype"), url(fonts/icomoon.ttf) format("truetype"), url(fonts/icomoon.woff) format("woff"), url(data:image/svg+xml;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmb250cy9pY29tb29uLnN2ZyI7#icomoon) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change ../fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-feature-settings: normal;
+          font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-info-circle:before {
+  content: "\F05A"; }
+
+.icon-exclamation:before {
+  content: "\E90F"; }
+
+.icon-question:before {
+  content: "\E910"; }
+
+.icon-menu:before {
+  content: "\E914"; }
+
+.icon-list:before {
+  content: "\E915"; }
+
+.icon-chat:before {
+  content: "\E911"; }
+
+.icon-comments:before {
+  content: "\E912"; }
+
+.icon-iphone:before {
+  content: "\E913"; }
+
+.icon-medical-massage2:before {
+  content: "\E900"; }
+
+.icon-spine2:before {
+  content: "\E901"; }
+
+.icon-analizi:before {
+  content: "\E902"; }
+
+.icon-health-care:before {
+  content: "\E903"; }
+
+.icon-medical-massage:before {
+  content: "\E904"; }
+
+.icon-phone:before {
+  content: "\E905"; }
+
+.icon-spine:before {
+  content: "\E906"; }
+
+.icon-uzi:before {
+  content: "\E907"; }
+
+.icon-store:before {
+  content: "\E91E"; }
+
+.icon-out:before {
+  content: "\E91F"; }
+
+.icon-in:before {
+  content: "\E920"; }
+
+.icon-in-alt:before {
+  content: "\E921"; }
+
+.icon-home:before {
+  content: "\E922"; }
+
+.icon-lightbulb:before {
+  content: "\E923"; }
+
+.icon-anchor:before {
+  content: "\E924"; }
+
+.icon-feather:before {
+  content: "\E925"; }
+
+.icon-expand:before {
+  content: "\E926"; }
+
+.icon-maximize:before {
+  content: "\E927"; }
+
+.icon-search:before {
+  content: "\E928"; }
+
+.icon-zoomin:before {
+  content: "\E929"; }
+
+.icon-zoomout:before {
+  content: "\E92A"; }
+
+.icon-add:before {
+  content: "\E92B"; }
+
+.icon-subtract:before {
+  content: "\E92C"; }
+
+.icon-exclamation2:before {
+  content: "\E916"; }
+
+.icon-question2:before {
+  content: "\E917"; }
+
+.icon-close:before {
+  content: "\E918"; }
+
+.icon-close2:before {
+  content: "\E92D"; }
+
+.icon-cmd:before {
+  content: "\E92E"; }
+
+.icon-forbid:before {
+  content: "\E92F"; }
+
+.icon-book:before {
+  content: "\E930"; }
+
+.icon-spinner:before {
+  content: "\E931"; }
+
+.icon-play:before {
+  content: "\E932"; }
+
+.icon-stop:before {
+  content: "\E933"; }
+
+.icon-pause:before {
+  content: "\E934"; }
+
+.icon-forward2:before {
+  content: "\E935"; }
+
+.icon-rewind:before {
+  content: "\E936"; }
+
+.icon-sound:before {
+  content: "\E937"; }
+
+.icon-sound-alt:before {
+  content: "\E938"; }
+
+.icon-soundoff:before {
+  content: "\E939"; }
+
+.icon-task:before {
+  content: "\E93A"; }
+
+.icon-inbox:before {
+  content: "\E93B"; }
+
+.icon-inbox-alt:before {
+  content: "\E93C"; }
+
+.icon-envelope2:before {
+  content: "\E93D"; }
+
+.icon-compose:before {
+  content: "\E93E"; }
+
+.icon-newspaper:before {
+  content: "\E93F"; }
+
+.icon-newspaper-alt:before {
+  content: "\E940"; }
+
+.icon-clipboard:before {
+  content: "\E941"; }
+
+.icon-calendar:before {
+  content: "\E942"; }
+
+.icon-hyperlink:before {
+  content: "\E943"; }
+
+.icon-trash:before {
+  content: "\E944"; }
+
+.icon-trash-alt:before {
+  content: "\E945"; }
+
+.icon-grid:before {
+  content: "\E946"; }
+
+.icon-grid-alt:before {
+  content: "\E947"; }
+
+.icon-menu2:before {
+  content: "\E919"; }
+
+.icon-list2:before {
+  content: "\E91A"; }
+
+.icon-gallery:before {
+  content: "\E948"; }
+
+.icon-calculator:before {
+  content: "\E949"; }
+
+.icon-windows:before {
+  content: "\E94A"; }
+
+.icon-browser:before {
+  content: "\E94B"; }
+
+.icon-alarm:before {
+  content: "\E94C"; }
+
+.icon-clock2:before {
+  content: "\E94D"; }
+
+.icon-attachment:before {
+  content: "\E94E"; }
+
+.icon-settings:before {
+  content: "\E94F"; }
+
+.icon-portfolio:before {
+  content: "\E950"; }
+
+.icon-user:before {
+  content: "\E951"; }
+
+.icon-users:before {
+  content: "\E952"; }
+
+.icon-heart:before {
+  content: "\E953"; }
+
+.icon-chat2:before {
+  content: "\E91B"; }
+
+.icon-comments2:before {
+  content: "\E91C"; }
+
+.icon-screen:before {
+  content: "\E954"; }
+
+.icon-iphone2:before {
+  content: "\E91D"; }
+
+.icon-ipad:before {
+  content: "\E955"; }
+
+.icon-forkandspoon:before {
+  content: "\E956"; }
+
+.icon-forkandknife:before {
+  content: "\E957"; }
+
+.icon-instagram:before {
+  content: "\E958"; }
+
+.icon-facebook:before {
+  content: "\E959"; }
+
+.icon-delicious:before {
+  content: "\E95A"; }
+
+.icon-googleplus:before {
+  content: "\E95B"; }
+
+.icon-dribbble:before {
+  content: "\E95C"; }
+
+.icon-pin:before {
+  content: "\E95D"; }
+
+.icon-pin-alt:before {
+  content: "\E95E"; }
+
+.icon-camera:before {
+  content: "\E95F"; }
+
+.icon-brightness:before {
+  content: "\E960"; }
+
+.icon-brightness-half:before {
+  content: "\E961"; }
+
+.icon-moon:before {
+  content: "\E962"; }
+
+.icon-cloud:before {
+  content: "\E963"; }
+
+.icon-circle-full:before {
+  content: "\E964"; }
+
+.icon-circle-half:before {
+  content: "\E965"; }
+
+.icon-globe:before {
+  content: "\E966"; }
+
+.icon-write:before {
+  content: "\E908"; }
+
+.icon-clock:before {
+  content: "\E909"; }
+
+.icon-forward:before {
+  content: "\E90A"; }
+
+.icon-envelope:before {
+  content: "\E90B"; }
+
+.icon-cog:before {
+  content: "\E90C"; }
+
+.icon-map-marker:before {
+  content: "\E90D"; }
+
+.icon-eye:before {
+  content: "\E90E"; }
+
 body {
   background: -webkit-gradient(linear, left top, right top, from(#ffc600), to(#F93D66));
   background: linear-gradient(to right, #ffc600, #F93D66);
