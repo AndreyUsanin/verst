@@ -1,6 +1,24 @@
-$main: white;
+// COLORS
 
-img {
-  box-shadow: 0 5px 3px rgba(0, 0, 0, .1);
-  display: flex;
+$primary: #f65100;
+$secondary: #76baea;
+$white: #eff3f4;
+$black: #1b2326;
+$gray: #858e95;
+$light-gray: #e8e9e9;
+$dark-gray: #485359;
+
+// BREAKPOINTS
+
+$xl: 1690px;
+$l: 1280px;
+$m: 980px;
+$s: 763px;
+$xs: 480px;
+
+// BODY
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: $black;
 }

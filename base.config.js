@@ -44,6 +44,7 @@ module.exports = {
       },
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        exclude: path.resolve(__dirname, 'src/images/'),
         use: [{
           loader: 'file-loader',
           options: {
@@ -58,9 +59,12 @@ module.exports = {
   plugins: [
 
     new HtmlWebpackPlugin({
-      title: "Output managment",
       filename: "index.html",
       template: "./src/index.html"
+    }),
+    new HtmlWebpackPlugin({
+      filename: "grid.html",
+      template: "./src/grid.html"
     }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output

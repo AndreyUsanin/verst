@@ -1,19 +1,13 @@
-const toggler = document.querySelector('.toggler');
-const menu = document.querySelector('.main-menu');
 
-toggler.addEventListener('click', menuToggle);
+// topnav
 
-function menuToggle(e) {
-  menu.classList.toggle('collapse');
-}
+var toggle = document.querySelector(".toggle");
+var topNav = document.querySelector(".navi--top");
 
 
-
-window.addEventListener('resize', resizeFunc);
-
-function resizeFunc() {
-  const w = window.innerWidth;
-  if(w > 800) {
-    menu.classList.remove('collapse');
-  } 
-};
+// Listen for click event on toggle var
+toggle.addEventListener('click', function() {
+  console.log("toggle clicked");
+  // toggle class "active" on topNav var
+  topNav.classList.toggle("active");
+}, false);
