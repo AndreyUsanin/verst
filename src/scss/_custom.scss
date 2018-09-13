@@ -16,6 +16,14 @@ $m: 980px;
 $s: 763px;
 $xs: 480px;
 
+//LAYOUT
+
+.container {
+  max-width: $l;
+  margin: auto;
+  padding: 0 1rem;
+}
+
 // BODY
 
 body {
